@@ -6,6 +6,13 @@ if country == '台灣' :
 		print('你不能考駕照哦')
 	elif age >= 18 and age < 65 :
 		print('你可以考駕照哦')
-	else :
+	elif age > 70 :
 		print('你太老，坐車吧')
 
+elif country == '美國' :
+	if age < 16 :
+		print('你不能考駕照哦')
+	elif age >= 16 and age < 70 :
+		print('你可以考駕照哦')
+	elif age > 70 :
+		print('你太老，坐車吧')		
